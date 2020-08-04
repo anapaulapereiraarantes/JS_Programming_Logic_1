@@ -1,0 +1,32 @@
+<meta charset="UTF-8">
+
+<script>
+//Este programa, de acordo com a resposta do usuário, deve exibir a mensagem "Pode dirigir" ou "Não pode dirigir". Lembre-se que é permitido dirigir ao indivíduo com 18 anos ou mais e que também possua carteira de motorista(AJUDA DO INSTRUTOR*SS)
+
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+    var altura = parseFloat(prompt("Quanto você mede?"));
+    var peso = parseFloat(prompt("Qual o teu peso?"));
+
+    debugger;
+
+    if( altura >= 1.50 ) {
+        if( peso >= "60") {
+            mostra("Pode ser doador de sangue.");
+        }
+    }
+    else{
+        if( altura < 1.50 && peso < 60){
+            mostra("Não pode ser doador de sangue.");
+        }
+        
+    }
+
+   
+</script>
